@@ -1,0 +1,78 @@
+2018-09-03 11:13:27,529 Grid search of context: l1_MinMax_precision_score, scaler: MinMax, metric: precision_score
+2018-09-03 19:14:02,812 Best Penalty: l1
+2018-09-03 19:14:02,812 Best C: 0.1
+2018-09-03 19:14:02,812 Best solver: liblinear
+2018-09-03 19:14:02,813 lr.best_score_: 0.14071351388650083
+2018-09-03 19:14:03,781 acu on test set: 0.660753
+2018-09-03 19:14:03,781 Classification report:              precision    recall  f1-score   support
+
+          0       0.94      0.67      0.78     10436
+          1       0.13      0.53      0.21      1007
+
+avg / total       0.87      0.66      0.73     11443
+
+2018-09-03 19:15:19,786 Grid search of context: l1_MinMax_recall_score, scaler: MinMax, metric: recall_score
+2018-09-04 03:19:04,692 Best Penalty: l1
+2018-09-04 03:19:04,692 Best C: 0.01
+2018-09-04 03:19:04,692 Best solver: saga
+2018-09-04 03:19:04,692 lr.best_score_: 0.6196104180335639
+2018-09-04 03:19:04,972 acu on test set: 0.425937
+2018-09-04 03:19:04,972 Classification report:              precision    recall  f1-score   support
+
+          0       0.94      0.40      0.56     10436
+          1       0.11      0.74      0.18      1007
+
+avg / total       0.87      0.43      0.52     11443
+
+2018-09-04 03:20:19,267 Grid search of context: l1_MinMax_accuracy_score, scaler: MinMax, metric: accuracy_score
+2018-09-04 12:17:41,823 Best Penalty: l1
+2018-09-04 12:17:41,823 Best C: 0.001
+2018-09-04 12:17:41,823 Best solver: liblinear
+2018-09-04 12:17:41,823 lr.best_score_: 0.9120185270149221
+2018-09-04 12:17:42,084 acu on test set: 0.694311
+2018-09-04 12:17:42,084 Classification report:              precision    recall  f1-score   support
+
+          0       0.93      0.72      0.81     10436
+          1       0.12      0.39      0.18      1007
+
+avg / total       0.85      0.69      0.76     11443
+
+2018-09-04 12:19:01,730 Grid search of context: l2_performance_selection_Centering_precision_score, scaler: Centering, metric: precision_score
+2018-09-04 15:43:15,463 Best Penalty: l2
+2018-09-04 15:43:15,464 Best C: 0.001
+2018-09-04 15:43:15,464 Best solver: sag
+2018-09-04 15:43:15,464 lr.best_score_: 0.1288694117787819
+2018-09-04 15:43:15,749 acu on test set: 0.661452
+2018-09-04 15:43:15,749 Classification report:              precision    recall  f1-score   support
+
+          0       0.94      0.68      0.78     10436
+          1       0.13      0.52      0.21      1007
+
+avg / total       0.87      0.66      0.73     11443
+
+2018-09-04 15:44:33,675 Grid search of context: l2_performance_selection_Centering_recall_score, scaler: Centering, metric: recall_score
+2018-09-04 19:34:20,197 Best Penalty: l2
+2018-09-04 19:34:20,197 Best C: 10
+2018-09-04 19:34:20,197 Best solver: sag
+2018-09-04 19:34:20,197 lr.best_score_: 0.49417190574106484
+2018-09-04 19:34:20,487 acu on test set: 0.659530
+2018-09-04 19:34:20,487 Classification report:              precision    recall  f1-score   support
+
+          0       0.93      0.67      0.78     10436
+          1       0.13      0.51      0.21      1007
+
+avg / total       0.86      0.66      0.73     11443
+
+2018-09-04 19:35:38,632 Grid search of context: l2_performance_selection_Centering_accuracy_score, scaler: Centering, metric: accuracy_score
+2018-09-04 23:22:29,306 Best Penalty: l2
+2018-09-04 23:22:29,306 Best C: 0.001
+2018-09-04 23:22:29,306 Best solver: lbfgs
+2018-09-04 23:22:29,307 lr.best_score_: 0.6614450197723449
+2018-09-04 23:22:29,597 acu on test set: 0.658831
+2018-09-04 23:22:29,597 Classification report:              precision    recall  f1-score   support
+
+          0       0.94      0.67      0.78     10436
+          1       0.14      0.53      0.22      1007
+
+avg / total       0.87      0.66      0.73     11443
+
